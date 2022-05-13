@@ -8,7 +8,9 @@ A tiny heroku library designed for creating a restfull worker on heroku. With th
 
 ## Implementation
 
-#### For gradle :-
+**Note** : Use standalone jar
+
+#### ~~For gradle~~ :-
 
 Add it in your root build.gradle at the end of repositories:
 
@@ -29,7 +31,7 @@ Add the dependency
 	}
 ```
 
-#### For maven :-
+#### ~~For maven~~ :-
 
 Declare the repo.
 
