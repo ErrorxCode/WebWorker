@@ -1,0 +1,16 @@
+plugins {
+    id 'java-library'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_16
+    targetCompatibility = JavaVersion.VERSION_16
+}
+
+dependencies {
+    implementation 'com.heroku.api:heroku-api:0.45'
+    implementation 'com.heroku.api:heroku-http-apache:0.45'
+    implementation 'com.heroku.api:heroku-json-jackson:0.45'
+    implementation 'org.java-websocket:Java-WebSocket:1.5.3'
+    implementation "com.sparkjava:spark-core:2.9.3"
+}
