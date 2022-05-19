@@ -5,12 +5,7 @@ A tiny heroku library designed for creating a restfull worker on heroku. With th
 *Use this library when you only want to process some data or perform background job on an input (data). This may not serve you if your worker perform jobs periodically (24/7) at some intervel of time*
 
 
-
-## Implementation
-
-**Note** : Use standalone jar
-
-#### ~~For gradle~~ :-
+#### For gradle :-
 
 Add it in your root build.gradle at the end of repositories:
 
@@ -25,13 +20,13 @@ Add it in your root build.gradle at the end of repositories:
 
 Add the dependency
 
-```gr
+```groovy
 	dependencies {
-	     implementation 'com.github.ErrorxCode:WebWorker:1.0.0'
+	     implementation 'com.github.ErrorxCode:WebWorker:v1.0'
 	}
 ```
 
-#### ~~For maven~~ :-
+#### For maven :-
 
 Declare the repo.
 
@@ -50,13 +45,9 @@ Add the dependencies
 	<dependency>
 	    <groupId>com.github.ErrorxCode</groupId>
 	    <artifactId>WebWorker</artifactId>
-	    <version>1.0.0</version>
+	    <version>v1.0</version>
 	</dependency>
 ```
-
-
-
-**Or else, you can download the [standalone jar](https://github.com/ErrorxCode/WebWorker/releases/download/test2/WebWorker.jar)**
 
 ## Usage
 
