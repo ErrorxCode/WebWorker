@@ -14,3 +14,11 @@ dependencies {
     implementation 'org.java-websocket:Java-WebSocket:1.5.3'
     implementation "com.sparkjava:spark-core:2.9.3"
 }
+
+jar {
+    from {
+        exclude "META-INF/*"
+        exclude "about.html"
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}

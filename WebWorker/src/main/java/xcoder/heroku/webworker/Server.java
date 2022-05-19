@@ -2,6 +2,9 @@ package xcoder.heroku.webworker;
 
 import com.heroku.api.HerokuAPI;
 
+import org.java_websocket.WebSocket;
+import org.java_websocket.handshake.ClientHandshake;
+
 import java.io.IOException;
 import java.nio.ByteBuffer;
 
