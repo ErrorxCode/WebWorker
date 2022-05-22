@@ -1,4 +1,4 @@
-# WebWorker ~ Heroku worker with RESTAPI
+# WebWorker ~ Heroku worker with RESTAPI ![download-badge](https://jitpack.io/v/ErrorxCode/WebWorker/month.svg)
 
 A tiny heroku library designed for creating a restfull worker on heroku. With this, you can control,save,enque worker process itself from the web process **using API.** This library establish *full-duplex communication* between worker process and web process, so that you can use worker **as a backend of your app** for processing heavy tasks. This library uses **heroku REST API** and hence require **API key**.
 
